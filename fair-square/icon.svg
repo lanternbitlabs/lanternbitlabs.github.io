@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#18204a"/>
+      <stop offset="1" stop-color="#0b0f24"/>
+    </linearGradient>
+    <!-- 3×3 "fair square" of blocks; each block: rim, body, light top -->
+    <g id="b">
+      <rect x="0" y="0" width="104" height="104" rx="22" fill="#000" fill-opacity="0.28"/>
+      <rect x="7" y="7" width="90" height="90" rx="18" fill="currentColor"/>
+      <rect x="7" y="7" width="90" height="45" rx="18" fill="#fff" fill-opacity="0.16"/>
+      <rect x="20" y="19" width="22" height="12" rx="6" fill="#fff" fill-opacity="0.45"/>
+    </g>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <g transform="translate(86 86)">
+    <use href="#b" x="0" y="0" color="#ff5d6c"/>
+    <use href="#b" x="118" y="0" color="#ff9f43"/>
+    <use href="#b" x="236" y="0" color="#ffd447"/>
+    <use href="#b" x="0" y="118" color="#4cd964"/>
+    <use href="#b" x="236" y="118" color="#3fc5f0"/>
+    <use href="#b" x="0" y="236" color="#5b7cfa"/>
+    <use href="#b" x="118" y="236" color="#b05cf5"/>
+    <use href="#b" x="236" y="236" color="#ff5d6c"/>
+  </g>
+</svg>
