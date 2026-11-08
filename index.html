@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lanternbit Labs</title>
-<meta name="description" content="Lanternbit Labs makes small, fair mobile games and apps. Home of Fair Square, a calm block puzzle.">
+<meta name="description" content="Lanternbit Labs makes small, fair mobile games and apps. Home of Fair Square, a calm block puzzle, and Stepluma, a step counter that turns walking into scroll time.">
 <meta property="og:title" content="Lanternbit Labs">
 <meta property="og:description" content="Small games and apps, made fair.">
 <meta property="og:image" content="assets/lanternbit-emblem.png">
@@ -30,7 +30,8 @@
   .brand { display:flex; align-items:center; gap:10px; color:#fff; text-decoration:none; font-weight:700; font-size:1.05rem; }
   .brand img { width:34px; height:34px; }
   nav ul { list-style:none; display:flex; gap:20px; margin:0; padding:0; }
-  nav ul a { color:#e9ddff; text-decoration:none; font-weight:500; font-size:.95rem; }
+  nav ul a { color:#e9ddff; text-decoration:none; font-weight:500; font-size:.95rem; white-space:nowrap; }
+  .brand { white-space:nowrap; }
   nav ul a:hover { color:#fff; }
 
   /* hero */
@@ -102,7 +103,7 @@
   <div class="wrap">
     <a class="brand" href="#top"><img src="assets/lanternbit-emblem.png" alt="">Lanternbit Labs</a>
     <ul>
-      <li><a href="#games">Games</a></li>
+      <li><a href="#games">Our apps</a></li>
       <li class="hide-sm"><a href="#promise">Our promise</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -116,7 +117,7 @@
       <div class="labs">LABS</div>
       <p>Small games and apps, made fair. No tricks, no ad spam, just little lights worth coming back to.</p>
       <div class="cta">
-        <a class="btn primary" href="#games">See our games</a>
+        <a class="btn primary" href="#games">See our games &amp; apps</a>
         <a class="btn ghost" href="mailto:lanternbit.labs@gmail.com">Say hello</a>
       </div>
     </div>
@@ -127,8 +128,8 @@
 <main class="wrap">
 
   <section id="games">
-    <h2>Games</h2>
-    <p class="lead">Made with care, tested by real players, and fair from the first move.</p>
+    <h2>Games &amp; apps</h2>
+    <p class="lead">Made with care, tested by real people, and fair from the first tap.</p>
 
     <article class="game">
       <div class="game-head">
@@ -153,6 +154,24 @@
       </div>
       <div class="game-links"><a href="fair-square/privacy.html">Privacy policy</a> · <a href="fair-square/terms.html">Terms of service</a></div>
     </article>
+
+    <article class="game" id="stepluma" style="margin-top:22px">
+      <div class="game-head">
+        <img src="stepluma/icon.png" alt="Stepluma app icon">
+        <div>
+          <h3>Stepluma: Step Counter</h3>
+          <span class="pill">Coming soon to Google Play</span>
+        </div>
+      </div>
+      <p>A simple, private step counter with one twist: your walking earns your scroll time. Pick the apps you lose hours in, get a few free minutes a day, and unlock more by walking.</p>
+      <div class="features">
+        <div class="feature"><b>Walk to unlock</b><span>Every 1,000 steps earns more time in the apps you choose.</span></div>
+        <div class="feature"><b>Your rules</b><span>Set your own limits, with emergency passes when you need them.</span></div>
+        <div class="feature"><b>Levels &amp; medals</b><span>Streaks, history and achievements to share.</span></div>
+        <div class="feature"><b>Private</b><span>No account. Steps and app usage stay on your phone.</span></div>
+      </div>
+      <div class="game-links"><a href="stepluma/privacy.html">Privacy policy</a> · <a href="stepluma/terms.html">Terms of service</a></div>
+    </article>
   </section>
 
   <section id="promise">
@@ -160,8 +179,8 @@
     <p class="lead">What you can expect from everything with the lantern on it.</p>
     <div class="promise">
       <div class="card"><div class="ico">1</div><h3>Fair play</h3><p>No rigged difficulty, no tricks to make you lose so you'll watch an ad.</p></div>
-      <div class="card"><div class="ico">2</div><h3>Respect for your time</h3><p>Ads only between games, always announced, and rewards stay your choice.</p></div>
-      <div class="card"><div class="ico">3</div><h3>Your data stays yours</h3><p>No accounts needed. Progress lives on your phone. Read each game's privacy policy.</p></div>
+      <div class="card"><div class="ico">2</div><h3>Respect for your time</h3><p>Ads never interrupt you: only between games, or when you choose to watch one. Rewards stay your choice.</p></div>
+      <div class="card"><div class="ico">3</div><h3>Your data stays yours</h3><p>No accounts needed. Your data lives on your phone. Read each app's privacy policy.</p></div>
     </div>
   </section>
 
@@ -177,7 +196,7 @@
 
   <footer>
     <span>© 2026 Lanternbit Labs</span>
-    <span><a href="fair-square/privacy.html">Fair Square privacy policy</a> · <a href="fair-square/terms.html">Terms</a></span>
+    <span><a href="fair-square/privacy.html">Fair Square privacy policy</a> · <a href="fair-square/terms.html">Terms</a> · <a href="stepluma/privacy.html">Stepluma privacy policy</a> · <a href="stepluma/terms.html">Terms</a></span>
   </footer>
 </main>
 
