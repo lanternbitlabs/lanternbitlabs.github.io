@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lanternbit Labs</title>
-<meta name="description" content="Lanternbit Labs makes small, fair mobile games and apps. Home of Fair Square, a calm block puzzle, and Stepluma, a step counter that turns walking into scroll time.">
+<meta name="description" content="Lanternbit Labs makes small, fair mobile games and apps. Home of Fair Square, a calm block puzzle on Google Play, and Stepluma, a step counter that turns walking into scroll time.">
 <meta property="og:title" content="Lanternbit Labs">
 <meta property="og:description" content="Small games and apps, made fair.">
 <meta property="og:image" content="assets/lanternbit-emblem.png">
@@ -61,6 +61,10 @@
   .game-head img { width:84px; height:84px; border-radius:20px; }
   .game-head h3 { margin:0; font-size:1.5rem; }
   .pill { display:inline-block; background:#efe6ff; color:var(--violet); border-radius:999px; padding:3px 12px; font-size:.82rem; font-weight:600; margin-top:4px; }
+  .pill.live { background:#e3f7ea; color:#11743a; text-decoration:none; }
+  .get { margin:18px 0 6px; }
+  .btn.get-play { background:var(--violet); color:#fff; }
+  .btn.get-play:hover { filter:brightness(1.1); }
   .game > p { color:var(--sub); margin:18px 0 22px; }
   .shots { display:grid; grid-template-columns:repeat(4, 1fr); gap:14px; }
   .shots img { width:100%; border-radius:18px; border:1px solid var(--line); display:block; }
@@ -135,23 +139,24 @@
       <div class="game-head">
         <img src="fair-square/icon.svg" alt="Fair Square app icon">
         <div>
-          <h3>Fair Square</h3>
-          <span class="pill">Coming soon to Google Play</span>
+          <h3>Fair Square: Block Puzzle</h3>
+          <a class="pill live" href="https://play.google.com/store/apps/details?id=com.lanternbitlabs.fairsquare">Available on Google Play</a>
         </div>
       </div>
-      <p>A calm block puzzle without the things people hate. Drag pieces onto the board, clear rows and columns, build combos, and come back every day for a new Daily Puzzle.</p>
+      <p>A calm block puzzle without the things people hate. Drag pieces onto the board, clear rows and columns, build combos, race the clock in 2-minute Blitz, and come back every day for a new Daily Puzzle and fresh missions.</p>
       <div class="shots">
-        <img src="fair-square/screens/menu.jpg" alt="Fair Square menu" loading="lazy">
-        <img src="fair-square/screens/play.jpg" alt="Placing a piece that clears a line" loading="lazy">
+        <img src="fair-square/screens/menu.jpg" alt="Fair Square menu with level, coins and Blitz" loading="lazy">
+        <img src="fair-square/screens/play.jpg" alt="A combo clear with NEXT and HOLD" loading="lazy">
+        <img src="fair-square/screens/blitz.jpg" alt="Blitz mode with the 2-minute clock" loading="lazy">
         <img src="fair-square/screens/daily.jpg" alt="Daily Puzzle calendar and streak" loading="lazy">
-        <img src="fair-square/screens/solved.jpg" alt="Daily Puzzle solved with three stars" loading="lazy">
       </div>
       <div class="features">
         <div class="feature"><b>Fair pieces</b><span>Every set of 3 is checked to fit.</span></div>
         <div class="feature"><b>Fair ads</b><span>Never while you play.</span></div>
-        <div class="feature"><b>Always saved</b><span>Close it any time, nothing is lost.</span></div>
+        <div class="feature"><b>Blitz</b><span>2 fast minutes; every clear adds time.</span></div>
         <div class="feature"><b>Daily Puzzle</b><span>Stars, streaks and a calendar.</span></div>
       </div>
+      <p class="get"><a class="btn get-play" href="https://play.google.com/store/apps/details?id=com.lanternbitlabs.fairsquare">Get it on Google Play</a></p>
       <div class="game-links"><a href="fair-square/privacy.html">Privacy policy</a> · <a href="fair-square/terms.html">Terms of service</a></div>
     </article>
 
